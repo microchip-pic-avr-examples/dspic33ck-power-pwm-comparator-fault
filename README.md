@@ -1,6 +1,6 @@
 ![image](images/microchip.jpg) 
 
-## %repoDescritpion%
+## DSPIC33CK POWER PWM COMPARATOR FAULT
 
 Board Image if any.
 
