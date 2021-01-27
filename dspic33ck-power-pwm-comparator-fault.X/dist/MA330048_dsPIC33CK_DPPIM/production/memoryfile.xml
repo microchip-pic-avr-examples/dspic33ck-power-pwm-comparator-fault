@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name="dist/MA330048_dsPIC33CK_DPPIM/production/dspic33ck-power-pwm-comparator-fault.X.production.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>24576</length>
+      <used>204</used>
+      <free>24372</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>269184</length>
+      <used>5271</used>
+      <free>263913</free>
+    </memory>
+  </executable>
+</project>
