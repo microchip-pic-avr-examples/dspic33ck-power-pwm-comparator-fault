@@ -3,7 +3,7 @@
  <p><a target="_blank" href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="200";"></a></p>
 
 # dsPIC33C High-Resolution PWM and Comparator Configuration: Lab 8
-**Fault Trigger Shut Down**
+**Fault-Triggerred PWM Shut Down**
 
 <p><center><a href="https://www.microchip.com/MA330048" rel="nofollow">
 <img src="images/ma330048.jpg" alt="dsPIC33CK Digital Power Plug-In Module" width="300"></a></center></p>
@@ -60,10 +60,10 @@ The potentiometer P2 voltage which acts as the fault source is adjusted from 0 t
 <br><center><img src="images/faultOperation.png" width="400"></center><br>
 *Complementary PWMs are shut down by the Comparator Fault Source upon reaching 2.5V Fault Reference*
 
-In the event that the fault signal is removed, the PG1 remains on shutdown and the complementary PWM waveforms returns only upon pressing on-board push button *USER* on the Digital Power Development Board.
+In the condition that the fault signal is removed, the PG1 remains on shut  down and the complementary PWM waveforms returns only upon pressing on-board push button *USER* on the Digital Power Development Board.
 
 <br><center><img src="images/terminateFault.png" width="400"></center><br>
-*Complementary PWMs are revived once the fault signal is removed and [USER] pushbutton is pressed*
+*Complementary PWMs are revived once the fault signal is removed and [USER] pushbutton is pressed to terminate the fault event.*
 
 Please refer to section *FIRMWARE QUICK-START GUIDE* below for more information on the initialization process and code structure.
 
