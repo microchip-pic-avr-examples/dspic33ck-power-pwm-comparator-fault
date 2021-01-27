@@ -35,21 +35,17 @@
          }
       },
       "peripherals":[
-         "GPIO",
          "PWM",
-		 "Timer",
+		 "TIMER",
 		 "DAC",
-		 "Comparator"
+		 "Analog Comparator"
       ],
       "keywords":[
-         "dsc",
-         "dspic",
-		 "power",
-		 "power-conversion",
-		 "power-supply",
-		 "smps",
-		 "fault-trigger"
-		 "pwm-shutdown"
+         "DSC",
+         "dsPIC",
+		 "Power Conversion",
+		 "Power Supply",
+		 "SMPS",
       ]
    }
 }
