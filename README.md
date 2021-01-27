@@ -63,7 +63,7 @@ The potentiometer P2 voltage which acts as the fault source is adjusted from 0 t
 In the event that the fault signal is removed, the PG1 remains on shutdown and the complementary PWM waveforms returns only upon pressing on-board push button *USER* on the Digital Power Development Board.
 
 <br><center><img src="images/terminateFault.png" width="400"></center><br>
-*Three multiphase complementary PWM pairs with 200kHz and 30% Duty Cycle Switching Frequency Output*
+*Complementary PWMs are revived once the fault signal is removed and [USER] pushbutton is pressed*
 
 Please refer to section *FIRMWARE QUICK-START GUIDE* below for more information on the initialization process and code structure.
 
