@@ -40,6 +40,9 @@
 		 "DAC",
 		 "Analog Comparator"
       ],
+	  "subcategories":[
+		 "Power Management and Conversion"
+	  ],
       "keywords":[
          "DSC",
          "dsPIC",
