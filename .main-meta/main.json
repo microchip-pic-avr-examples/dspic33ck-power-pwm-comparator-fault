@@ -38,7 +38,8 @@
          "PWM",
 		 "TIMER",
 		 "DAC",
-		 "Analog Comparator"
+		 "Analog Comparator",
+		 "SMPS PWM"
       ],
 	  "subcategories":[
 		 "Power Management and Conversion"
@@ -47,8 +48,10 @@
          "DSC",
          "dsPIC",
 		 "Power Conversion",
+		 "Power Management & Conversion",
+		 "Digital Power Conversion",
 		 "Power Supply",
-		 "SMPS",
+		 "SMPS"
       ]
    }
 }
