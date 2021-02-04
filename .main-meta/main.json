@@ -1,0 +1,57 @@
+{
+   "metaDataVersion":"1.0.0",
+   "category":"com.microchip.ide.project",
+   "content":{
+      "metaDataVersion":"1.0.0",
+      "name":"com.microchip.mplabx.project.dspic33ck-power-pwm-comparator-fault",
+      "version":"1.0.0",
+      "displayName":"dsPIC33CK/CH-MP PWM and Comparator Configuration: Fault Trigger Detection",
+      "projectName":"dspic33ck-power-pwm-comparator-fault",
+      "shortDescription":"Fault-Triggered PWM Shut Down Configuration Example for dsPIC33CK-MP devices",
+      "ide":{
+         "name":"MPLABX",
+         "semverRange":">=5.40.0"
+      },
+      "compiler":{
+         "name":"XC16",
+         "semverRange":"^1.50.0"
+      },
+      "dfp":{
+         "name":"dsPIC33CK-MP_DFP",
+         "semverRange":">=1.4.102"
+      },
+	  "configurator": {
+         "name": "MCC",
+         "semverRange": ">=4.0.1"
+      },
+      "device":{
+         "metaDataVersion":"1.0.0",
+         "category":"com.microchip.portal.contentRef",
+         "content":{
+            "metaDataVersion":"1.0.0",
+            "category":"com.microchip.device",
+            "name":"dsPIC33CK",
+            "versionRange":"*"
+         }
+      },
+      "peripherals":[
+         "PWM",
+		 "TIMER",
+		 "DAC",
+		 "Analog Comparator",
+		 "SMPS PWM"
+      ],
+	  "subcategories":[
+		 "Power Management and Conversion"
+	  ],
+      "keywords":[
+         "DSC",
+         "dsPIC",
+		 "Power Conversion",
+		 "Power Management and Conversion",
+		 "Digital Power Conversion",
+		 "Power Supply",
+		 "SMPS"
+      ]
+   }
+}
